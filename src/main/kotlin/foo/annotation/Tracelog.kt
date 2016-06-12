@@ -5,6 +5,6 @@ package foo.annotation
  */
 
 @Target(AnnotationTarget.FUNCTION)
-@Retention(AnnotationRetention.SOURCE)
+@Retention(AnnotationRetention.RUNTIME)
 @MustBeDocumented
 public annotation class Tracelog
